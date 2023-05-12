@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 import styles from '../styles/renderIndividual.module.css';
 
@@ -31,7 +32,7 @@ const RenderIndividualBook = ({ renderData }) => (
         <div className={styles.renderWrapperCurrentChapter}>
           <h5 className={styles.currentChapterTitle}>CURRENT CHAPTER</h5>
           <h5 className={styles.chapterTitle}>Chapter title</h5>
-          <button className={styles.btnUpdateProgress}>UPDATE PROGRESS</button>
+          <button type="button" className={styles.btnUpdateProgress}>UPDATE PROGRESS</button>
         </div>
       </div>
     ))}
