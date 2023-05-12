@@ -8,19 +8,19 @@ const BookList = () => {
       id: 1,
       title: 'Setup React website',
       author: 'Elham',
-      category: 'Action'
+      category: 'Action',
     },
     {
       id: 2,
       title: 'C# programing',
       author: 'Lg',
-      category: 'Since Fiction'
+      category: 'Since Fiction',
     },
     {
       id: 3,
       title: 'Who moved my cheese',
       author: 'Pk ',
-      category: 'Economy'
+      category: 'Economy',
     },
   ];
   return (

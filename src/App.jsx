@@ -3,7 +3,8 @@ import React from 'react';
 import Layout from './components/Layout';
 import BookList from './components/BookList';
 import Categories from './routes/Categories';
-import NoMatch from './routes/NoMatch'
+import NoMatch from './routes/NoMatch';
+
 function App() {
   return (
     <BrowserRouter>
