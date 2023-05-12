@@ -4,7 +4,7 @@ import styles from '../styles/navigation.module.css';
 
 const links = [
   { path: '/', text: 'BOOKLIST' },
-  { path: '/Categories', text: 'CATEGORIES' }
+  { path: '/Categories', text: 'CATEGORIES' },
 ];
 const Navbar = () => (
   <>
